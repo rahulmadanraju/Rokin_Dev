@@ -17,12 +17,13 @@ def write_csv(data):
         
 def empty_row(file):
     header_names = ['title', 'domain', 'url', 'snippet','keyword','date']
-    df = pd.read_csv(file, engine='python',sep=',', quotechar='"', skiprow = 0, error_bad_lines=False, header = None, skiprows = 1, names = header_names)
+    df = pd.read_csv(file, engine='python',sep=',', quotechar='"', error_bad_lines=False, header = None, skiprows = 1, names = header_names)
     df.dropna(axis=0, how='all',inplace=True)
     df.to_csv('output.csv', index=False)
-    
+
+# parameter used to search the data on google platform
 params = {
-  'access_key': 'fecfdc248f2fcf66ca6541ea01eb7801', #API key
+  'access_key': '***************************', # API key
   'page' : 1, # 5 page search results are required
   'query': 'avoid cooling time and production costs for injection molding' # search using keywords
   }
