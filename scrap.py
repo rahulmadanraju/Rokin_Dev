@@ -9,7 +9,20 @@ import requests
 import datetime
 import pandas as pd
 import csv
+import sys
 
+maxInt = sys.maxsize
+
+while True:
+    # decrease the maxInt value by factor 10 
+    # as long as the OverflowError occurs.
+
+    try:
+        csv.field_size_limit(maxInt)
+        break
+    except OverflowError:
+        maxInt = int(maxInt/10)
+        
 def write_csv(data):
     with open('output.csv', 'a', encoding='utf-8') as outfile:
         writer = csv.writer(outfile, dialect = 'excel')
