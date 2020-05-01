@@ -1,1 +1,32 @@
+PEP8 Coding Style :
+    https://www.python.org/dev/peps/pep-0008/
+    In Pycharm: -> Settings | Editor | Inspection
 
+Documentetion:
+    https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings
+    https://numpydoc.readthedocs.io/en/latest/format.html
+
+Requirements.txt:
+    Create a common requirements.txt
+
+Virtual Environment:
+    Create a new virtual environment
+    pip install -r requirements.txt
+    Don't forget to update requirements.txt
+
+Git:
+    Configuration
+    Clone
+    Add commit status
+    Branching
+
+PS: Before accepting a pull request, assign a test for two teammates
+
+
+commit mit id, For example- RKN-001:
+
+3 different environment named - dev, test, prod:
+
+testing by two person for each commit to move it into other environment:
+
+clear coding:
