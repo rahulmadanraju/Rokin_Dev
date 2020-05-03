@@ -1,0 +1,7 @@
+{
+    "python.autoComplete.extraPaths": [
+    
+        "python.pythonPath": "/mnt/c/Users/MODEL/Desktop/Git/_Rokin/Rokin_Dev/TechTinder/bin/python",
+        "python.venvPath" : "/mnt/c/Users/MODEL/Desktop/Git/_Rokin/Rokin_Dev/TechTinder"
+    ]
+}
