@@ -1,6 +1,6 @@
 PEP8 Coding Style :
     https://www.python.org/dev/peps/pep-0008/
-    In Pycharm: -> Settings | Editor | Inspection
+    In Pycharm: -> Settings/Preferences | Editor | Inspection
 
 Documentation:
     https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings
