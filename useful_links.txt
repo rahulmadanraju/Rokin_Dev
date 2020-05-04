@@ -2,7 +2,7 @@ PEP8 Coding Style :
     https://www.python.org/dev/peps/pep-0008/
     In Pycharm: -> Settings | Editor | Inspection
 
-Documentetion:
+Documentation:
     https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings
     https://numpydoc.readthedocs.io/en/latest/format.html
 
