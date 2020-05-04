@@ -5,12 +5,15 @@ PEP8 Coding Style :
 Documentation:
     https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings
     https://numpydoc.readthedocs.io/en/latest/format.html
+    Clear coding
 
 Requirements.txt:
     Create a common requirements.txt
 
 Virtual Environment:
     Create a new virtual environment
+    >>> python3 -m venv [environment_name]
+
     pip install -r requirements.txt
     Don't forget to update requirements.txt
 
@@ -20,13 +23,9 @@ Git:
     Add commit status
     Branching
 
-PS: Before accepting a pull request, assign a test for two teammates
+PS: Before accepting a pull request, assign two teammates for testing
 
 
-commit mit id, For example- RKN-001:
 
-3 different environment named - dev, test, prod:
 
-testing by two person for each commit to move it into other environment:
 
-clear coding:
