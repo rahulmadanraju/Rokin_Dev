@@ -1,9 +1,0 @@
-{
-    "python.autoComplete.extraPaths": [
-    
-        "python.pythonPath", "/mnt/c/Users/MODEL/Desktop/Git/_Rokin/Rokin_Dev/TechTinder/bin/python",
-        "python.venvPath" , "/mnt/c/Users/MODEL/Desktop/Git/_Rokin/Rokin_Dev/TechTinder"
-    ],
-    "python.pythonPath": "C:\\Users\\MODEL\\Miniconda3\\envs\\TechTinder\\python.exe",
-    "python.linting.enabled": true
-}
