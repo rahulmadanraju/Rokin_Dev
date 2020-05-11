@@ -7,8 +7,8 @@ def data_slicer(path_in,path_out,size):
     '''
     function to slice the whole data set to small chunk
 
-    input :  string: path of input file, with file extention
-          :  string: path of output file, with file extention
+    input :  string: path of input file, with "JSON" file extention
+          :  string: path of output file, with "CSV" file extention
           :  size of slice you want
     '''
 

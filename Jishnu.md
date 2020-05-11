@@ -1,5 +1,8 @@
 # Read Me!
 
+### code strucuring
+follow (PEP8)[https://pep8.org/#imports]
+
 ### build the environment
 
 ```
